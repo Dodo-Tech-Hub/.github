@@ -8,8 +8,8 @@ Rules are based on popular industry standards (OWASP, Twelve-Factor, WCAG, Mater
 
 | Module | Constitution | AGENTS.md | Status |
 |--------|--------------|-----------|--------|
-| `base` | `speckit-constitution/base.md`: governance, quality gates, KISS/YAGNI, structure, tests, security baseline, spec style | `agents.md/base.md`: Spec Kit workflow, docs rules, git rules | Used by magpie and android-scheduler |
-| `mobile` | `speckit-constitution/mobile.md`: OWASP MASVS, Material 3 and Apple HIG, WCAG 2.2, adaptive layout, device check | `agents.md/mobile.md`: build commands, devices, release, platform limits | Used by magpie and android-scheduler |
+| `base` | `speckit-constitution/base.md`: governance, quality gates, KISS/YAGNI, structure, low-effort UX, tests, security baseline, spec style | `agents.md/base.md`: Spec Kit workflow, docs rules, git rules | Used by magpie and android-scheduler |
+| `mobile` | `speckit-constitution/mobile.md`: OWASP MASVS, WCAG 2.2, adaptive layout, device check | `agents.md/mobile.md`: build commands, devices, release, platform limits | Used by magpie and android-scheduler |
 | `backend` | `speckit-constitution/backend.md`: Twelve-Factor, OWASP ASVS, migrations, backups | `agents.md/backend.md`: environments, deploy, rollback | Draft |
 | `api` | `speckit-constitution/api.md`: OpenAPI, RFC 9457, OWASP API Security Top 10 | `agents.md/api.md`: contract path and tests | Draft |
 | `cli` | `speckit-constitution/cli.md`: clig.dev, exit codes, stable interface | `agents.md/cli.md`: build, release | Draft |

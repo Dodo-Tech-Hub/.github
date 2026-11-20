@@ -15,16 +15,13 @@ Every feature MUST meet [OWASP MASVS](https://mas.owasp.org/MASVS/) v2 at the MA
 
 Rationale: a mobile app runs on a device the developer does not control, and its binary can be read by anyone.
 
-### Platform Design and Accessibility
+### Accessibility and Screen States
 
-- Follow the platform design guidelines: [Material Design 3](https://m3.material.io) on Android and the [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) on iOS.
 - Meet [WCAG 2.2](https://www.w3.org/TR/WCAG22/) level AA where it applies to native apps. Every interactive element MUST have an accessibility label for TalkBack and VoiceOver.
 - Touch targets are at least 48 by 48 dp on Android and 44 by 44 points on iOS.
-- User-facing text uses plain language: short sentences, everyday words, no technical terms.
 - Every screen spec names its loading, error, and empty states.
-- Confirmation dialogs appear only for destructive or irreversible actions.
 
-Rationale: users already know their platform's patterns. Following them makes the app easy to learn and usable by everyone.
+Rationale: the app must be usable by everyone, and every screen must tell the user what is happening.
 
 ### Adaptive Layout
 

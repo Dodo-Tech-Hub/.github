@@ -41,6 +41,18 @@ Rationale: every line of code must be read, tested, and maintained. The simplest
 
 Rationale: features are added over time, often by AI agents. Clear homes and one pattern per job keep each change small and safe to review.
 
+### Low-Effort UX
+
+Applies to every project with a user interface.
+
+- A user finishes each task with as few screens, transitions, and taps as possible ([Nielsen heuristic 8](https://www.nngroup.com/articles/ten-usability-heuristics/), Hick's law). Show the next step in place on the same screen before adding a new screen. Every new screen MUST be justified in the plan.
+- Option sets of 2 to 5 items use inline choices (segmented button, chips, or radio list). Larger sets use a dropdown menu, searchable when the list can grow.
+- Action and category buttons show an icon with a short text label. Leave out the label only when the icon is universally understood (for example close, back, search).
+- Confirmation dialogs appear only for destructive or irreversible actions.
+- User-facing text uses plain language: short sentences, one idea per sentence, everyday words, no technical terms (for example "Sign in", not "Authenticate").
+
+Rationale: every extra screen, choice, and tap is a chance to stop or make a mistake.
+
 ### Readable Code
 
 - Follow the official style guide and formatter of the language (for example Kotlin coding conventions with ktlint, Prettier and ESLint for TypeScript, PEP 8 with Ruff for Python). Formatting is enforced by tools, not by review.

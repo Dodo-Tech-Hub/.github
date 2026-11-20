@@ -18,7 +18,6 @@ Rationale: a web page runs untrusted content next to the user's session.
 - Meet [WCAG 2.2](https://www.w3.org/TR/WCAG22/) level AA: semantic HTML first, ARIA only when no HTML element fits, every function usable by keyboard, visible focus.
 - Layout is responsive, mobile first, and works from a 320 px wide window up.
 - Every page spec names its loading, error, and empty states.
-- User-facing text uses plain language.
 
 Rationale: the web is used on every kind of device and by people with every kind of ability.
 
