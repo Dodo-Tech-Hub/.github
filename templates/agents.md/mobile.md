@@ -1,5 +1,5 @@
 
-<!-- templates v1.0.0: agents.md/mobile.md -->
+<!-- templates v1.1.0: agents.md/mobile.md -->
 ## Mobile
 
 ### Build and run
@@ -22,6 +22,7 @@
 
 - Distribution: [CHANNEL, for example signed APK on GitHub Releases, Google Play, App Store].
 - Release steps live in [RELEASE_DOC, for example docs/RELEASING.md].
+- Before a release or a store submission, follow `.agents/skills/app-store-audit/SKILL.md`. It checks the app against Google Play and App Store rejection rules with the App Store Compliance Playbook, a git submodule in `.agents/vendor/app-store-compliance` that Dependabot keeps up to date. The audit warns; the developer decides whether to continue.
 
 ### Platform constraints that shape the design
 
