@@ -1,0 +1,9 @@
+# templates v1.1.0: dependabot.yml
+# Copy to .github/dependabot.yml in a mobile project, or add the entry to an existing one.
+version: 2
+updates:
+  # App Store Compliance Playbook (.agents/vendor/app-store-compliance), used by the app-store-audit skill.
+  - package-ecosystem: gitsubmodule
+    directory: /
+    schedule:
+      interval: weekly

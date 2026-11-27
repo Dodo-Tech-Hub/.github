@@ -1,5 +1,5 @@
 
-<!-- templates v1.0.0: speckit-constitution/mobile.md -->
+<!-- templates v1.1.0: speckit-constitution/mobile.md -->
 ## Mobile Principles
 
 ### Mobile Security (OWASP MASVS)
@@ -35,6 +35,7 @@ Rationale: users run the app on many screen sizes, and foldables change size whi
 ### Platform Rules and Verification
 
 - Follow the store and platform policies ([Google Play Developer Policy](https://play.google/developer-content-policy/), [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and the terms of every third-party API the app uses, even when the app is distributed outside a store.
+- The compliance audit (the `app-store-audit` skill) SHOULD run before each release. Critical findings MUST be shown to the developer, who decides whether to continue.
 - Specs cover every supported platform and mark platform-specific behavior.
 - A feature is done only after a manual check on the primary test device named in `AGENTS.md`, recorded in its `tasks.md`.
 

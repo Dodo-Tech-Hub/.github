@@ -3,7 +3,7 @@
 
 [PROJECT_SUMMARY: one or two sentences on what the product does and for whom.]
 
-**Version**: 1.0.0 | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE] | **Based on**: Dodo Tech Hub templates v1.0.0 ([MODULES, for example base, mobile])
+**Version**: 1.0.0 | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE] | **Based on**: Dodo Tech Hub templates v1.1.0 ([MODULES, for example base, mobile])
 
 ## Governance
 
